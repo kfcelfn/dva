@@ -17,3 +17,11 @@ export const Error = dynamic({
   ],
   component: () => import('@/pages/error'),
 })
+
+export const Tables = dynamic({
+  app,
+  models: () => [
+    import('@/models/table'),
+  ],
+  component: () => import('@/pages/table'),
+})
