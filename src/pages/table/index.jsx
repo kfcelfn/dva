@@ -29,7 +29,7 @@ const data = [
   },
 ];
 
-export default class Table extends Component {
+export default class Tables extends Component {
   render() {
     return (
       <div className='page-table'>
